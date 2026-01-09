@@ -3,40 +3,40 @@
 
   const solutions = [
     {
-      tag: "FIND",
-      title: "ZERO IN ON THE BUYERS WHO MATTER",
-      description: "Build, refine, and activate your ideal lead list directly within Reevo. We automatically dedupe and map new contacts to accounts so your data is always clean and actionable.",
-      color: "bg-orange-50",
-      accent: "bg-orange-500",
-      textAccent: "text-orange-600",
-      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2940&auto=format&fit=crop" // Dashboard/List view
+      tag: "STRATEGY",
+      title: "ENTER NEW MARKETS WITH CONFIDENCE",
+      description: "We handle market research, regulatory compliance, legal entity setup, and go-to-market strategy. Launch in new territories with a clear roadmap and compliant operations from day one.",
+      color: "bg-primary-50",
+      accent: "bg-primary-500",
+      textAccent: "text-primary-600",
+      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2940&auto=format&fit=crop"
     },
     {
-      tag: "CONNECT",
-      title: "BUILD PIPELINE WITHOUT THE PATCHWORK",
-      description: "Dialer, multi-channel sequences, and email deliverability tools built directly into your CRM. Manage your entire outreach without ever switching tabs.",
-      color: "bg-pink-50",
-      accent: "bg-pink-500",
-      textAccent: "text-pink-600",
-      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2426&auto=format&fit=crop" // Analytics/Sequence view
+      tag: "LOCALIZATION",
+      title: "SPEAK YOUR CUSTOMERS' LANGUAGE",
+      description: "Beyond translation, we adapt your brand, content, and user experience for local markets. From app store optimization to culturally-resonant messaging, we make your product feel native.",
+      color: "bg-primary-50",
+      accent: "bg-primary-500",
+      textAccent: "text-primary-600",
+      image: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=2940&auto=format&fit=crop"
     },
     {
-      tag: "SELL",
-      title: "TURN CONVERSATIONS INTO CONVERSIONS",
-      description: "Use natively built AI tools to distill call insights, generate tasks, and draft follow-up emails with relevant context, so you keep momentum strong.",
-      color: "bg-green-50",
-      accent: "bg-green-500",
-      textAccent: "text-green-600",
-      image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=2788&auto=format&fit=crop" // Video call/Person
+      tag: "MARKETING",
+      title: "ACQUIRE USERS AT SCALE",
+      description: "Paid advertising, social media, SEO, and growth marketing executed by teams who understand both your home market and your target markets. Drive sustainable user acquisition and engagement.",
+      color: "bg-primary-50",
+      accent: "bg-primary-500",
+      textAccent: "text-primary-600",
+      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2426&auto=format&fit=crop"
     },
     {
-      tag: "MANAGE",
-      title: "OPERATE FROM A SINGLE SOURCE OF TRUTH",
-      description: "Your pipeline manages itself with automated activity logging and stage gating. You can trust your forecast because it's based on real activity, not manual updates.",
-      color: "bg-yellow-50",
-      accent: "bg-yellow-500",
-      textAccent: "text-yellow-600",
-      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2940&auto=format&fit=crop" // Chart view
+      tag: "TECHNICAL",
+      title: "BUILD ON SOLID INFRASTRUCTURE",
+      description: "Cloud architecture, payment integration, subscription management, and cross-border tax compliance. We partner with AWS, Azure, RevenueCat, and leading providers to ensure your technical foundation scales.",
+      color: "bg-primary-50",
+      accent: "bg-primary-500",
+      textAccent: "text-primary-600",
+      image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?q=80&w=2940&auto=format&fit=crop"
     }
   ];
 </script>
@@ -46,13 +46,18 @@
     <!-- Header -->
     <div class="mb-24">
       <div class="flex items-center gap-2 mb-6">
-        <div class="w-5 h-5 bg-black text-white flex items-center justify-center text-xs font-bold rounded-sm">R</div>
-        <span class="text-xs font-bold tracking-widest uppercase text-gray-500">The Solution: Reevo</span>
+        <svg width="20" height="22" viewBox="0 0 97 105" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path opacity="0.5" d="M0.84375 29.5892V75.3785L43.791 45.7896V0L0.84375 29.5892Z" fill="black"/>
+          <path opacity="0.5" d="M0.84375 75.3787V29.5891L43.791 59.1783V104.968L0.84375 75.3787Z" fill="black"/>
+          <path opacity="0.5" d="M96.8438 29.5891V75.3787L53.8965 45.7895V0L96.8438 29.5891Z" fill="black"/>
+          <path opacity="0.5" d="M96.8438 75.3787V29.5891L53.8965 59.1783V104.968L96.8438 75.3787Z" fill="black"/>
+        </svg>
+        <span class="text-xs font-bold tracking-widest uppercase text-gray-500">The Solution: AppInChina</span>
       </div>
       
       <h2 class="font-display font-medium text-4xl sm:text-5xl max-w-4xl leading-tight text-gray-900">
-        Prospect-to-close in a single tab. <br />
-        <span class="text-gray-500">More functionality. Less complexity. No "stack" required.</span>
+        One partner for your entire global expansion. <br />
+        <span class="text-gray-500">From strategy to execution. Managed services, not just software.</span>
       </h2>
     </div>
 

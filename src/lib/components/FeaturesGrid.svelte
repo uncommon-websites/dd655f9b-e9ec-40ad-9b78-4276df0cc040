@@ -1,53 +1,53 @@
 <script>
-  import { ArrowRight, Search, Link, Zap, Layers, Database, Mail, Phone, Calendar, BarChart, Users, MessageSquare, CheckSquare, Settings } from 'lucide-svelte';
+  import { ArrowRight, Search, Link, Zap, Layers, Database, Mail, Phone, Calendar, BarChart, Users, MessageSquare, CheckSquare, Settings, Globe, FileText, Shield, Cloud, TrendingUp } from 'lucide-svelte';
 
   const features = [
     {
-      title: "Find",
-      icon: Search,
-      color: "bg-orange-100 text-orange-600",
+      title: "Strategy & Entry",
+      icon: Globe,
+      color: "bg-primary-100 text-primary-600",
       items: [
-        { label: "TAM sourcing", icon: Database },
-        { label: "Contact enrichment", icon: Users },
-        { label: "Company enrichment", icon: Settings },
-        { label: "Intent signals", icon: BarChart, tag: "SOON" },
-        { label: "Lead scoring", icon: Zap, tag: "SOON" }
+        { label: "Market research & analysis", icon: BarChart },
+        { label: "Go-to-market strategy", icon: TrendingUp },
+        { label: "Legal entity setup", icon: Shield },
+        { label: "Regulatory compliance", icon: CheckSquare },
+        { label: "Market positioning", icon: Search }
       ]
     },
     {
-      title: "Connect",
-      icon: Link,
-      color: "bg-pink-100 text-pink-600",
+      title: "Localization",
+      icon: MessageSquare,
+      color: "bg-primary-100 text-primary-600",
       items: [
-        { label: "Domain & inbox purchase", icon: Mail },
-        { label: "Inbox warming", icon: Zap },
-        { label: "Sequencing", icon: Settings },
-        { label: "Dialer", icon: Phone },
-        { label: "Scheduler", icon: Calendar }
+        { label: "Content localization", icon: FileText },
+        { label: "Cultural adaptation", icon: Users },
+        { label: "Brand localization", icon: Zap },
+        { label: "App store optimization", icon: Settings },
+        { label: "Website development", icon: Globe }
       ]
     },
     {
-      title: "Sell",
-      icon: Zap,
-      color: "bg-green-100 text-green-600",
+      title: "Marketing & Growth",
+      icon: TrendingUp,
+      color: "bg-primary-100 text-primary-600",
       items: [
-        { label: "Meeting recordings", icon: MessageSquare },
-        { label: "Meeting intelligence", icon: Zap },
-        { label: "Smart email composer", icon: Mail },
-        { label: "Smart task logging", icon: CheckSquare },
-        { label: "CPQ", icon: Settings, tag: "SOON" }
+        { label: "Paid advertising", icon: BarChart },
+        { label: "Social media management", icon: MessageSquare },
+        { label: "SEO & SEM", icon: Search },
+        { label: "User acquisition", icon: Users },
+        { label: "Analytics & reporting", icon: Database }
       ]
     },
     {
-      title: "Manage",
-      icon: Layers,
-      color: "bg-yellow-100 text-yellow-600",
+      title: "Technical Services",
+      icon: Cloud,
+      color: "bg-primary-100 text-primary-600",
       items: [
-        { label: "CRM", icon: Database },
-        { label: "Ask Reevo Copilot", icon: MessageSquare },
-        { label: "Reporting", icon: BarChart },
-        { label: "Workflows", icon: Zap },
-        { label: "Integrations", icon: Link }
+        { label: "Cloud infrastructure", icon: Cloud },
+        { label: "Payment integration", icon: Settings },
+        { label: "Subscription management", icon: Layers },
+        { label: "Cross-border tax", icon: Shield },
+        { label: "LLM optimization", icon: Zap }
       ]
     }
   ];
@@ -58,12 +58,17 @@
     <!-- Header -->
     <div class="mb-20">
       <div class="flex items-center gap-2 mb-6">
-        <div class="w-5 h-5 bg-black text-white flex items-center justify-center text-xs font-bold rounded-sm">R</div>
-        <span class="text-xs font-bold tracking-widest uppercase text-gray-500">Built Different</span>
+        <svg width="20" height="22" viewBox="0 0 97 105" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path opacity="0.5" d="M0.84375 29.5892V75.3785L43.791 45.7896V0L0.84375 29.5892Z" fill="black"/>
+          <path opacity="0.5" d="M0.84375 75.3787V29.5891L43.791 59.1783V104.968L0.84375 75.3787Z" fill="black"/>
+          <path opacity="0.5" d="M96.8438 29.5891V75.3787L53.8965 45.7895V0L96.8438 29.5891Z" fill="black"/>
+          <path opacity="0.5" d="M96.8438 75.3787V29.5891L53.8965 59.1783V104.968L96.8438 75.3787Z" fill="black"/>
+        </svg>
+        <span class="text-xs font-bold tracking-widest uppercase text-gray-500">End-to-End Services</span>
       </div>
       
       <h2 class="font-display font-medium text-4xl sm:text-5xl max-w-4xl leading-tight text-gray-900">
-        Win more with less friction. <span class="text-gray-500">Reevo streamlines prospecting, outreach, and pipeline management so you can focus on selling—not admin work.</span>
+        Everything you need to succeed globally. <span class="text-gray-500">From market entry strategy to technical infrastructure, we manage the complexity of international expansion.</span>
       </h2>
     </div>
 

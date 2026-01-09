@@ -1,9 +1,9 @@
 <script>
     const links = {
-        Products: ["Find", "Connect", "Sell", "Manage"],
-        Platform: ["Pricing", "Blog", "Product Tour", "Login"],
-        Company: ["About us", "Careers", "Startup Program", "Press & Partner Inquiries"],
-        Social: ["LinkedIn", "X/Twitter"]
+        Services: ["Market Entry", "Localization", "Marketing", "Technical"],
+        Resources: ["Case Studies", "Blog", "Market Insights", "Partner Network"],
+        Company: ["About Us", "Careers", "Contact", "Press Inquiries"],
+        Social: ["LinkedIn", "WeChat"]
     };
 </script>
 
@@ -12,7 +12,12 @@
         <div class="grid grid-cols-2 md:grid-cols-6 gap-8 mb-16">
             <!-- Logo Column -->
             <div class="col-span-2">
-                <div class="w-8 h-8 bg-black text-white flex items-center justify-center font-display font-bold text-xl rounded-sm mb-6">R</div>
+                <svg width="32" height="35" viewBox="0 0 97 105" fill="none" xmlns="http://www.w3.org/2000/svg" class="mb-6">
+                    <path opacity="0.5" d="M0.84375 29.5892V75.3785L43.791 45.7896V0L0.84375 29.5892Z" fill="black"/>
+                    <path opacity="0.5" d="M0.84375 75.3787V29.5891L43.791 59.1783V104.968L0.84375 75.3787Z" fill="black"/>
+                    <path opacity="0.5" d="M96.8438 29.5891V75.3787L53.8965 45.7895V0L96.8438 29.5891Z" fill="black"/>
+                    <path opacity="0.5" d="M96.8438 75.3787V29.5891L53.8965 59.1783V104.968L96.8438 75.3787Z" fill="black"/>
+                </svg>
             </div>
             
             <!-- Link Columns -->
@@ -33,9 +38,9 @@
         <!-- Bottom Bar -->
         <div class="flex flex-col md:flex-row justify-between items-center pt-8 border-t border-gray-100 text-[10px] text-gray-400 uppercase tracking-wider font-medium gap-4">
             <div class="flex gap-8">
-                <span>© 2025 Reevo Inc.</span>
-                <span class="flex items-center gap-1"><span class="w-2 h-2 rounded-full border border-gray-300"></span> SOC2 Compliant</span>
-                <span class="flex items-center gap-1"><span class="w-2 h-2 rounded-full border border-gray-300"></span> AICPA SOC Trusted</span>
+                <span>© 2025 AppInChina</span>
+                <span class="flex items-center gap-1"><span class="w-2 h-2 rounded-full border border-gray-300"></span> Since 2013</span>
+                <span class="flex items-center gap-1"><span class="w-2 h-2 rounded-full border border-gray-300"></span> Global Partner Network</span>
             </div>
             
             <div class="flex gap-8">

@@ -11,6 +11,11 @@
   import Footer from '$lib/components/Footer.svelte';
 </script>
 
+<svelte:head>
+  <title>AppInChina - Global Expansion Services for Chinese Apps & SaaS</title>
+  <meta name="description" content="End-to-end global expansion services for Chinese apps, games, and SaaS. From strategy to execution, we handle the complexity so you can focus on growth." />
+</svelte:head>
+
 <div class="min-h-screen bg-white">
   <Header />
   <main>

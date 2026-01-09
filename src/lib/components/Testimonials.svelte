@@ -1,22 +1,22 @@
 <script>
   const testimonials = [
     {
-      quote: "Reevo has cut down the tool sprawl that used to slow us down. We can finally get rid of a dozen other apps, everything we need is finally in one place.",
-      author: "Alex Zh.",
-      role: "CRO, SaaS",
-      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=2787&auto=format&fit=crop"
+      quote: "AppInChina handled everything from legal setup to marketing execution. We launched in North America in 3 months and hit 100K users in the first quarter. Their dual-market expertise is invaluable.",
+      author: "Wei Chen",
+      role: "CEO, Gaming Studio",
+      image: "/generated/image-chinese-entrepreneur-confidently-present-1767923527951-1.webp"
     },
     {
-      quote: "We closed a deal two weeks faster because Reevo auto-generated follow ups we hadn't even thought of. That's the kind of impact that shows up in the numbers, not just my calendar.",
-      author: "Lisa D.",
-      role: "Founder, Stealth Co.",
-      image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=2787&auto=format&fit=crop"
+      quote: "We tried managing multiple vendors for our global expansion and it was chaos. AppInChina became our single point of contact, coordinating everything seamlessly. Now we can focus on product while they handle the complexity.",
+      author: "Lin Zhang",
+      role: "Founder, SaaS Platform",
+      image: "/generated/image-young-chinese-female-founder-working-on--1767923530983-2.webp"
     },
     {
-      quote: "Any team member can just open Reevo, ask it a question in plain English, and instantly get the context they need; from call notes to next steps. I don't have to repeat myself in Slack or email, and nothing slips through the cracks.",
-      author: "Gil",
-      role: "Head of Sales, Vercal",
-      image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=2787&auto=format&fit=crop"
+      quote: "Their localization goes beyond translation. They helped us understand cultural nuances and adapt our messaging for Western markets. Our conversion rates improved by 40% after implementing their recommendations.",
+      author: "David Liu",
+      role: "VP International, Mobile App",
+      image: "/generated/image-chinese-tech-professional-in-casual-busi-1767923533515-3.webp"
     }
   ];
 </script>
@@ -26,12 +26,17 @@
     <!-- Header -->
     <div class="mb-20">
       <div class="flex items-center gap-2 mb-6">
-        <div class="w-5 h-5 bg-black text-white flex items-center justify-center text-xs font-bold rounded-sm">R</div>
-        <span class="text-xs font-bold tracking-widest uppercase text-gray-500">Customers Love Reevo</span>
+        <svg width="20" height="22" viewBox="0 0 97 105" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path opacity="0.5" d="M0.84375 29.5892V75.3785L43.791 45.7896V0L0.84375 29.5892Z" fill="black"/>
+          <path opacity="0.5" d="M0.84375 75.3787V29.5891L43.791 59.1783V104.968L0.84375 75.3787Z" fill="black"/>
+          <path opacity="0.5" d="M96.8438 29.5891V75.3787L53.8965 45.7895V0L96.8438 29.5891Z" fill="black"/>
+          <path opacity="0.5" d="M96.8438 75.3787V29.5891L53.8965 59.1783V104.968L96.8438 75.3787Z" fill="black"/>
+        </svg>
+        <span class="text-xs font-bold tracking-widest uppercase text-gray-500">Trusted by Innovators</span>
       </div>
       
       <h2 class="font-display font-medium text-4xl sm:text-5xl max-w-4xl leading-tight text-gray-900">
-        Built by outsiders. <span class="text-gray-500">Loved by insiders. <br /> Feared by dinosaurs.</span>
+        Chinese innovation meets global markets. <span class="text-gray-500">Powered by AppInChina's expertise.</span>
       </h2>
     </div>
 
